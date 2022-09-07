@@ -1,0 +1,7 @@
+.header-top{
+    display: flex;
+    justify-content: center;
+}
+.header-top-container{
+    width: 89%;
+}

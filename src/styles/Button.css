@@ -1,0 +1,61 @@
+.connexion{
+    color: var(--blue);
+    padding: 1rem 1.2rem;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.connexion:hover{
+    color: #fff;
+    background-color: var(--blue);
+}
+.inscription{
+    color: #fff;
+    padding: 1rem 1.2rem;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+.inscription:hover{
+    color: var(--blue);
+    background-color: #fff;
+}
+.plus{
+    font-size: 16px;
+    color: var(--blue);
+    padding: 1rem 1.6rem;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.plus:hover{
+    color: #fff;
+    background-color: var(--blue);
+}
+.acheter{
+    color: #fff;
+    padding: 1rem 3.5rem;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+.acheter:hover{
+    color: var(--blue);
+    background-color: #fff;
+}
+.acheter-maintenant{
+    color: #fff;
+    padding: 1rem 3.5rem;
+    border: 2px solid var(--pink);
+    border-radius: 5px;
+    background-color: var(--pink);
+    cursor: pointer;
+}
+.acheter-maintenant:hover{
+    color: var(--pink);
+    background-color: #fff;
+}

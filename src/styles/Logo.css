@@ -1,0 +1,7 @@
+.logo{
+    text-decoration: none;
+    color: #000;
+}
+h2 span{
+    color: var(--blue);
+}

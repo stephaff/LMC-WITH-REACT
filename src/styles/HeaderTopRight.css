@@ -1,0 +1,11 @@
+.header-top-right{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.header-top-right select{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
