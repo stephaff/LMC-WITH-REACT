@@ -1,4 +1,6 @@
 import React from 'react';
+import Banner from '../components/Banner';
+import CategoryList from '../components/CategoryList';
 import HeaderTop from '../components/HeaderTop';
 
 function Home() {
@@ -6,6 +8,8 @@ function Home() {
     <div className='home'>
         <header>
           <HeaderTop />
+          <Banner />
+          <CategoryList />
         </header>
         <main>
 

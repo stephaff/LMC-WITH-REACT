@@ -1,0 +1,22 @@
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../public/Groupe-45.png');
+    background-size: cover;
+    background-position: center;
+}
+.banner-container{
+    width: 89%;
+}
+.banner-container h1{
+    color: #fff;
+    font-size: 36px;
+}
+.banner-container p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
