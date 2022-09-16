@@ -1,14 +1,17 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 function Navbar() {
+
+  const categories = useSelector(state => state.categoryReducer.categories)
+
   return (
     <nav className='navbar'>
-        <Link to='' className='link'>Catégories</Link>
-        <Link to='' className='link'>Vêtements</Link>
-        <Link to='' className='link'>Accessoires</Link>
-        <Link to='' className='link'>Chaussures</Link>
+      {categories.map((category, index)=>
+        <Link to={category} className='link' key={ index } >{category}</Link> 
+      )}
     </nav>
   )
 }

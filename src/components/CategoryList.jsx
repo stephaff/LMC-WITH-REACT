@@ -9,6 +9,7 @@ function CategoryList() {
     const categories = useSelector(state => state.categoryReducer.categories)
 
     useEffect(() => {
+        
         fetch('https://fakestoreapi.com/products/categories')
         .then(res=>res.json())
         .then(json=>
@@ -20,9 +21,7 @@ function CategoryList() {
   return (
     <div className='category-list'>
         <div className="category-list-container">
-            {categories.filter((category, index)=>
-                index > 0
-            ).map((category, index)=>
+            {categories.map((category, index)=>
                 <Category key={ index }  category={ category } />
             )}
         </div>
