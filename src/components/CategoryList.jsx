@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import '../styles/CategoryList.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllCategories } from '../redux/actions';
 import Category from './Category';

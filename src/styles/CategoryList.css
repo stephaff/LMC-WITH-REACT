@@ -1,0 +1,6 @@
+.category-list-container{
+    width: 89%;
+    margin: 6rem auto;
+    display: flex;
+    justify-content: space-between;
+}
