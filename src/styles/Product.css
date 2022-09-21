@@ -1,0 +1,23 @@
+.product{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.product-image{
+    width: 200px;
+    height: 200px;
+    border: 1px solid coral;
+}
+.price{
+    margin-top: 1rem;
+}
+.product-manager{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
