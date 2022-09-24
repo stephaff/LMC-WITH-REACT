@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.designer{
+    color: var(--pink);
+    text-decoration: none;
+}
