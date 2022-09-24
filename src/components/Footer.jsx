@@ -5,7 +5,7 @@ import '../styles/Footer.css';
 function Footer(){
     return (
         <div className="footer">
-            <p>&copy LMC-Shop design by <Link to='' className="designer">Affali stephane</Link></p>
+            <p>&copy; LMC-Shop design by <Link to='' className="designer">Affali stephane</Link></p>
         </div>
     );
 }

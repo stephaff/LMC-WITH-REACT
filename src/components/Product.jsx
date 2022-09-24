@@ -2,15 +2,15 @@ import React from "react";
 import '../styles/Product.css';
 import Button from "./Button";
 
-function Product(){
+function Product({ product }){
     return (
         <div className="product">
             <div className="product-image">
-
+                <img src={ product.image } alt="product" />
             </div>
             <div className="product-details">
-                <h3>Name</h3>
-                <p className="price">Price</p>
+                <h5>{ product.title }</h5>
+                <p className="price">{ product.price } &euro;</p>
             </div>
             <div className="product-manager">
                 <Button btn='acheter' lbl='Acheter' />

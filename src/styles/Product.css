@@ -11,10 +11,19 @@
 .product-image{
     width: 200px;
     height: 200px;
-    border: 1px solid coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-image img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    object-position: center;
+    cursor: pointer;
 }
 .price{
-    margin-top: 1rem;
+    margin-top: 0.4rem;
 }
 .product-manager{
     display: flex;
